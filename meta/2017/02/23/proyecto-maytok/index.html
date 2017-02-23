@@ -5,9 +5,9 @@
 	<meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Importación masiva con doctrine - DEV Maytok</title>
+<title>Proyecto Maytok - DEV Maytok</title>
 <meta name="description" content="Apuntes sobre desarrollo y tecnología en general.">
-<link rel="canonical" href="http://dev.maytok.com/php/2016/04/16/bulk-inserts-doctrine/">
+<link rel="canonical" href="http://dev.maytok.com/meta/2017/02/23/proyecto-maytok/">
 <meta name="author" content="Giancarlo Ventura" />
 <link rel="shortcut icon" href="http://www.maytok.com/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href=" /css/normalize.css " />
@@ -69,42 +69,20 @@
 			<section class="content content--show" style="top: 0px;">
 				<div class="scroll-wrap">
 					<article class="content__item content__item--show" id="post-content">
-						<span class="category category--full">PHP</span>
-						<h2 class="title title--full">Importación masiva con doctrine</h2>
+						<span class="category category--full">meta</span>
+						<h2 class="title title--full">Proyecto Maytok</h2>
 						<div class="meta meta--full">
 							<img class="meta__avatar" src="http://www.maytok.com/img/profile-photo.jpg" alt="author"  height="45" width="45" />
 							<span class="meta__author">Giancarlo Ventura</span>
-							<span class="meta__date"><i class="fa fa-calendar-o"></i><time class="timeago" datetime="2016-04-16T04:14:34-05:00">Cargando...</time></span>
+							<span class="meta__date"><i class="fa fa-calendar-o"></i><time class="timeago" datetime="2017-02-23T11:10:04-05:00">Cargando...</time></span>
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i>Léelo en 1  min.</span>
 						</div>
-						<p>Las importaciones masivas de datos, también conocidas como <em>bulk inserts</em>, son 
-una manera para, en una base de datos, insertar muchas filas en una tabla con 
-una sola transacción.</p>
+						<p>El proyecto Maytok es la respuesta personal al <a href="https://twitter.com/search?q=%23100DaysOfCode&amp;src=khanmaytok">#100DaysOfCode</a>, una iniciativa que busca mejorarnos como programadores a través de practicar 100 días por una hora diaria (no incluye trabajos ni lectura de ejercicios)</p>
 
-<p>Para doctrine, hay una manera fácil y genial de realizarla:</p>
+<p>Para los 100 días he planeado construir un sitio donde pueda publicar capítulos de los distintos libros que se me ocurran. No será un blog, como éste, sino gestionará los libros, capítulos y demás media que vaya apareciendo con el paso del tiempo.</p>
 
-<pre>
-<code class="language-php">
-&lt;?php
-$batchSize = 20; //Número de filas para insertar a la vez
-for ($i = 1; $i &lt;= 10000; ++$i) {
-    $user = new CmsUser;
-    $user-&gt;setStatus('user');
-    $user-&gt;setUsername('user' . $i);
-    $user-&gt;setName('Mr.Smith-' . $i);
-    $em-&gt;persist($user);
-    if (($i % $batchSize) === 0) {
-        $em-&gt;flush();
-        $em-&gt;clear(); // Limpiamos todos los objetos de Doctrine. Importante!
-    }
-}
-$em-&gt;flush(); //Guardamos los objetos que se han quedado afuera del batch
-$em-&gt;clear();
-</code>
-</pre>
+<p>Usaremos este post como índice de todos los artículos relacionados con el tema que vayan apareciendo.</p>
 
-<p>Si deseas conocer más, aquí puedes encontrar toda la (documentación de Doctrine)[http://doctrine-orm.readthedocs.org/en/latest/reference/batch-processing.html]
-sobre el tema (en inglés). Y como siempre, gracias por leernos.</p>
 
 					</article>
 				</div>

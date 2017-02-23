@@ -5,9 +5,73 @@
     <description>Apuntes sobre desarrollo y tecnología en general.</description>
     <link>http://dev.maytok.com/</link>
     <atom:link href="http://dev.maytok.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Jun 2016 15:56:23 +0000</pubDate>
-    <lastBuildDate>Wed, 08 Jun 2016 15:56:23 +0000</lastBuildDate>
-    <generator>Jekyll v3.1.1</generator>
+    <pubDate>Thu, 23 Feb 2017 13:27:49 -0500</pubDate>
+    <lastBuildDate>Thu, 23 Feb 2017 13:27:49 -0500</lastBuildDate>
+    <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Proyecto Maytok</title>
+        <description>&lt;p&gt;El proyecto Maytok es la respuesta personal al &lt;a href=&quot;https://twitter.com/search?q=%23100DaysOfCode&amp;amp;src=khanmaytok&quot;&gt;#100DaysOfCode&lt;/a&gt;, una iniciativa que busca mejorarnos como programadores a través de practicar 100 días por una hora diaria (no incluye trabajos ni lectura de ejercicios)&lt;/p&gt;
+
+&lt;p&gt;Para los 100 días he planeado construir un sitio donde pueda publicar capítulos de los distintos libros que se me ocurran. No será un blog, como éste, sino gestionará los libros, capítulos y demás media que vaya apareciendo con el paso del tiempo.&lt;/p&gt;
+
+&lt;p&gt;Usaremos este post como índice de todos los artículos relacionados con el tema que vayan apareciendo.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 23 Feb 2017 11:10:04 -0500</pubDate>
+        <link>http://dev.maytok.com/meta/2017/02/23/proyecto-maytok/</link>
+        <guid isPermaLink="true">http://dev.maytok.com/meta/2017/02/23/proyecto-maytok/</guid>
+        
+        <category>maytok,</category>
+        
+        <category>meta</category>
+        
+        
+        <category>meta</category>
+        
+      </item>
+    
+      <item>
+        <title>Día 1 - El blog | #100DaysOfCode </title>
+        <description>&lt;p&gt;El día uno está dedicado a… este blog.&lt;/p&gt;
+
+&lt;p&gt;¿Trampa? Quizá.&lt;/p&gt;
+
+&lt;p&gt;Primiero, el motor: este blog está realizado gracias a &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, un generador de páginas estáticas hecho en Ruby. Lo hemos elegido por su simplicidad: solo necesitas instalarlo y funciona. Además está orientado a blogs, aunque por supuesto, puedes usarlo para cualquier otra estructura que desees.&lt;/p&gt;
+
+&lt;p&gt;Quizá puede parecer poco productivo y uno podría preguntarse por qué no usar soluciones más potentes como Wordpress, pero en este caso, Jekyll es todo lo que necesito. Sin bases de datos, y usa el poder de Markdown. Para administrarlo, tenemos un plugin bastante útil: &lt;a href=&quot;https://github.com/jekyll/jekyll-admin&quot;&gt;Jekyll Admin&lt;/a&gt; que nos brinda las funcionalidades clásicas de un CMS.&lt;/p&gt;
+
+&lt;p&gt;Si lo deseas, puedes [darle un vistazo al repositorio]https://github.com/khanmaytok/maytok-blog-source) y sugerir cambios y mejoras.&lt;/p&gt;
+
+&lt;p&gt;El tema está tomado integramente del artículo &lt;a href=&quot;https://tympanus.net/codrops/2015/04/15/grid-item-animation-layout/&quot;&gt;Grid Item Animation Layout&lt;/a&gt; del fantástico sitio Codrops. Las adaptaciones que se han hecho han sido mínimas y me ha gustado mucho el efecto de carga y el estilo mínimal del tema.&lt;/p&gt;
+
+&lt;p class=&quot;text-center&quot;&gt;
+&lt;img src=&quot;https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2015/04/GridItemAnimation_02.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;¿El hosting? Github Pages. Podemos usar un repositorio de Github para publicar páginas estáticas de acuerdo, claro, a las políticas de la organización y para optimizar la entrega del contenido usamos el CDN gratuito que nos brinda CloudFlare.&lt;/p&gt;
+
+&lt;p&gt;Como puedes ver, montar un blog puede ser bastante sencillo y fácil.&lt;/p&gt;
+
+&lt;p&gt;Recuerda que siempre puedes sugerir cambios a esta publicación y realizar críticas demoledoras en cualquier momento&lt;/p&gt;
+
+&lt;p&gt;¡Eso ese todo por ahora. Nos estamos leyendo!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 23 Feb 2017 01:13:00 -0500</pubDate>
+        <link>http://dev.maytok.com/jekyll/2017/02/23/dia-1-el-blog/</link>
+        <guid isPermaLink="true">http://dev.maytok.com/jekyll/2017/02/23/dia-1-el-blog/</guid>
+        
+        <category>jekyll</category>
+        
+        <category>blog</category>
+        
+        <category>Github Pages</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
     
       <item>
         <title>Autenticación con password en Apache</title>
@@ -74,7 +138,7 @@ Solo tienes que escribir tres líneas para estar listo:&lt;/p&gt;
 pusimos en el archivo &lt;code class=&quot;highlighter-rouge&quot;&gt;.htpasswd&lt;/code&gt;. Ahora, si ingresamos, veremos algo como:&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 09 May 2016 11:14:34 +0000</pubDate>
+        <pubDate>Mon, 09 May 2016 06:14:34 -0500</pubDate>
         <link>http://dev.maytok.com/servidores/2016/05/09/autenticacion-password-apache/</link>
         <guid isPermaLink="true">http://dev.maytok.com/servidores/2016/05/09/autenticacion-password-apache/</guid>
         
@@ -103,9 +167,9 @@ una sola transacción.&lt;/p&gt;
 $batchSize = 20; //Número de filas para insertar a la vez
 for ($i = 1; $i &amp;lt;= 10000; ++$i) {
     $user = new CmsUser;
-    $user-&amp;gt;setStatus(&#39;user&#39;);
-    $user-&amp;gt;setUsername(&#39;user&#39; . $i);
-    $user-&amp;gt;setName(&#39;Mr.Smith-&#39; . $i);
+    $user-&amp;gt;setStatus('user');
+    $user-&amp;gt;setUsername('user' . $i);
+    $user-&amp;gt;setName('Mr.Smith-' . $i);
     $em-&amp;gt;persist($user);
     if (($i % $batchSize) === 0) {
         $em-&amp;gt;flush();
@@ -120,7 +184,7 @@ $em-&amp;gt;clear();
 &lt;p&gt;Si deseas conocer más, aquí puedes encontrar toda la (documentación de Doctrine)[http://doctrine-orm.readthedocs.org/en/latest/reference/batch-processing.html]
 sobre el tema (en inglés). Y como siempre, gracias por leernos.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 16 Apr 2016 09:14:34 +0000</pubDate>
+        <pubDate>Sat, 16 Apr 2016 04:14:34 -0500</pubDate>
         <link>http://dev.maytok.com/php/2016/04/16/bulk-inserts-doctrine/</link>
         <guid isPermaLink="true">http://dev.maytok.com/php/2016/04/16/bulk-inserts-doctrine/</guid>
         
@@ -177,7 +241,7 @@ WebGL. Puedes dejarla como está, pero no funcionará en muchos dispositivos. As
 
 &lt;p&gt;¿Sencillo, verdad? Ahora WebGL funciona en tu proyecto.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 14 Apr 2016 15:14:34 +0000</pubDate>
+        <pubDate>Thu, 14 Apr 2016 10:14:34 -0500</pubDate>
         <link>http://dev.maytok.com/mobile/2016/04/14/habilitar-webgl-ionic/</link>
         <guid isPermaLink="true">http://dev.maytok.com/mobile/2016/04/14/habilitar-webgl-ionic/</guid>
         
@@ -222,7 +286,7 @@ de este post, hay casi 3800 paquetes que &lt;a href=&quot;https://chocolatey.org
 
 &lt;pre&gt;
 &lt;code class=&quot;language-powershell&quot;&gt;
-@powershell -NoProfile -ExecutionPolicy Bypass -Command &quot;iex ((new-object net.webclient).DownloadString(&#39;https://chocolatey.org/install.ps1&#39;))&quot; &amp;amp;&amp;amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+@powershell -NoProfile -ExecutionPolicy Bypass -Command &quot;iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))&quot; &amp;amp;&amp;amp; SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 &lt;/code&gt;
 &lt;/pre&gt;
 
@@ -264,7 +328,7 @@ en Github. Si quieres, puedes echar un vistazo al &lt;a href=&quot;https://githu
 &lt;p&gt;El template está basado por completo en un &lt;a href=&quot;http://tympanus.net/codrops/2015/04/15/grid-item-animation-layout/&quot;&gt;artículo&lt;/a&gt; de &lt;a href=&quot;http://tympanus.net/codrops/author/crnacura/&quot;&gt;Mary Lou&lt;/a&gt; 
 para &lt;a href=&quot;http://tympanus.net/codrops&quot;&gt;Codrops&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 14 Apr 2016 15:04:34 +0000</pubDate>
+        <pubDate>Thu, 14 Apr 2016 10:04:34 -0500</pubDate>
         <link>http://dev.maytok.com/jekyll/2016/04/14/jekyll-windows-sin-dolor/</link>
         <guid isPermaLink="true">http://dev.maytok.com/jekyll/2016/04/14/jekyll-windows-sin-dolor/</guid>
         

@@ -3,9 +3,39 @@
   
     
     <url>
+      <loc>http://dev.maytok.com/meta/2017/02/23/proyecto-maytok/</loc>
+      
+        <lastmod>2017-02-23T11:10:04-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://dev.maytok.com/jekyll/2017/02/23/dia-1-el-blog/</loc>
+      
+        <lastmod>2017-02-23T01:13:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://dev.maytok.com/servidores/2016/05/09/autenticacion-password-apache/</loc>
       
-        <lastmod>2016-05-09T11:14:34+00:00</lastmod>
+        <lastmod>2016-05-09T06:14:34-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -20,7 +50,7 @@
     <url>
       <loc>http://dev.maytok.com/php/2016/04/16/bulk-inserts-doctrine/</loc>
       
-        <lastmod>2016-04-16T09:14:34+00:00</lastmod>
+        <lastmod>2016-04-16T04:14:34-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -35,7 +65,7 @@
     <url>
       <loc>http://dev.maytok.com/mobile/2016/04/14/habilitar-webgl-ionic/</loc>
       
-        <lastmod>2016-04-14T15:14:34+00:00</lastmod>
+        <lastmod>2016-04-14T10:14:34-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -50,7 +80,7 @@
     <url>
       <loc>http://dev.maytok.com/jekyll/2016/04/14/jekyll-windows-sin-dolor/</loc>
       
-        <lastmod>2016-04-14T15:04:34+00:00</lastmod>
+        <lastmod>2016-04-14T10:04:34-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -80,7 +110,7 @@
     <url>
       <loc>http://dev.maytok.com</loc>
       
-        <lastmod>2016-06-08T15:56:23+00:00</lastmod>
+        <lastmod>2017-02-23T13:27:49-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -89,6 +119,11 @@
         <priority>0.3</priority>
       
     </url>
+    
+  
+    
+    
+
     
   
     
